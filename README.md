@@ -35,11 +35,4 @@ Create a system to manage student results. Each student has multiple subjects wi
 
 
 
-\##Student Breakdown:
-
-Student A → builds Subject + Student classes → handed to Student B.
-
-Student B → builds ResultSystem, utils, exceptions using A’s models → handed to Student C.
-
-Student C → builds report + main.py to integrate everything and provide user interface.
 
